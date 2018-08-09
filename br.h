@@ -15,7 +15,7 @@ typedef struct {
 } list_t;
 
 list_t *create_list();
-void add_elementFinal(list_t *list, int x, int y);
+void addElementFinal(list_t *list, int x, int y);
 void sortAdd(list_t **sortedList, node_t *toAdd);
 void sortList(list_t **list);
 void removeDuplicates(list_t *list);
