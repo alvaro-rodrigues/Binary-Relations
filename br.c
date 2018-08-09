@@ -14,7 +14,7 @@ list_t *create_list() {
   return list;
 }
 
-void add_elementFinal(list_t *list, int x, int y) {
+void addElementFinal(list_t *list, int x, int y) {
   node_t *node = (node_t *) malloc (sizeof(node_t));
   node->x = x;
   node->y = y;
