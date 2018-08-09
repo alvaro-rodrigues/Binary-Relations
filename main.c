@@ -24,9 +24,9 @@ int main(int argc, char const *argv[]) {
 	}
 	while(scanf("%d %d", &x, &y) != EOF)
 	{
-    add_elementFinal(list, x, y);
-    add_elementFinal(symmetricClosure, x, y);
-    add_elementFinal(transitiveClosure, x, y);
+    addElementFinal(list, x, y);
+    addElementFinal(symmetricClosure, x, y);
+    addElementFinal(transitiveClosure, x, y);
 	}
   sortList(&list);
   printf("1. Reflexiva: %c\n", R = isReflective(list, array, n, reflectiveClosure, reflectiveLack));
